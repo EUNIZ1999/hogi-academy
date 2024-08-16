@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="first name">votre nom</label>
+      <input
+        type="text"
+        name="first name"
+        placeholder="Taper votre nom"
+        required
+        id="first name"
+        style="display: block"
+      />
+
+      <!-- placerholder pour un message dans le formulaire -->
+      <!-- required pour indiquer que le champ est obligatoire -->
+      <label for="email">lire seulement</label>
+      <input
+        type="email"
+        readonly
+        value="eustacheniz@gmail.com"
+        style="display: block"
+      />
+      <!-- readonly  pour lire seulement -->
+      <label for="url">ajouter un lien</label>
+      <input type="url" id="url" style="display: block" />
+
+      <!-- pour ajouter des liens -->
+      <label for="tel">Taper votre numero de tel</label>
+      <input type="tel" id="tel" style="display: block" />
+      <!-- pour taper le numero de tel -->
+      <label for="pass">Taper votre mot de pass</label>
+      <input type="password" id="pass" style="display: block" />
+      <label for="date"> date</label>
+      <input type="date" id="date" style="display: block" />
+      <label for="dt">date et heure</label>
+      <input type="datetime-local" style="display: block" id="dt" />
+      <input type="datetime" />
+      <input type="search" />
+      <input type="number" min="-1" max="100" />
+      <input type="password" />
+      <input type="color" />
+      <input type="file" accept=".jpg" />
+      <input type="image" />
+      <input type="checkbox" checked disabled />
+      <!-- checked valeur par defaut -->
+      <!-- disabled pour ne pas supprimer checkbox -->
+      <br />
+      <br />
+      <input type="radio" name="gender" value="F" id="F" />
+      <label for="F">Feminin</label>
+      <!-- for pour que si on si on clique sur le Feminin la selection est automatique -->
+      <input type="radio" name="gender" value="H" id="H" />
+      <label for="H">Masculin</label>
+      <!-- value a envoyer -->
+
+      <input type="submit" />
+      <button type="submit">Soumettre</button>
+      <br />
+      <br />
+      <textarea
+        name=""
+        id="textarea"
+        rows="8"
+        placeholder="commenter"
+      ></textarea>
+      <select name="" id="">
+        <option disabled>Choisir une langue</option>
+        <option value="bi">kirundi</option>
+        <option value="en">English</option>
+        <option value="fr">Francais</option>
+      </select>
+      <br />
+      <br />
+    </form>
+  </body>
+</html>

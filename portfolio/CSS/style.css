@@ -1,0 +1,50 @@
+/* body{
+    background-image: url('./images/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+} */
+ body{  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     /* taille de la police */
+    background-color: whitesmoke;
+    text-align: center;
+ }
+p{
+    font-size: 12px;
+}
+span{
+    display:block;
+}
+.about{
+    background-color: rgb(150, 200, 100); 
+    color: aliceblue;
+    /* les nombres exadecimal */
+}
+.card{
+    border: 5px solid rgb(200, 150, 250);
+    border-radius: 20px;
+    padding: 12px;
+    width: 50%;
+    margin: 16px 32px 100px;
+   /* margin-top: ;
+   margin-left: ;
+   margin-right: ;
+   margin-bottom: ; */
+
+
+}
+/* margin pour defimir la marge exterieur */
+#id{
+    font-size: 60px;
+}
+/* definir le nombre de colonne du texte */
+.about{
+    columns: 3;
+    font-family: 'Courier New', Courier, monospace;
+    /* pour la taille de la police */
+}
+ /* selection  multiples */
+ h1, h2, h3, h4, h5, h6{
+    
+ }
