@@ -10,11 +10,14 @@
     background-color: whitesmoke;
     text-align: center;
  }
+ * {
+    box-sizing: border-box;
+ }
 p{
     font-size: 12px;
 }
 span{
-    display:block;
+    display:inline;
 }
 .about{
     background-color: rgb(150, 200, 100); 
@@ -45,6 +48,20 @@ span{
     /* pour la taille de la police */
 }
  /* selection  multiples */
- h1, h2, h3, h4, h5, h6{
+ /* h1, h2, h3, h4, h5, h6{
     
- }
+ } */
+  .block-inline{ .block-inline
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+  }
+  .flex.container{ display: flex;
+    flex-wrap: ;
+    /* pour aligne horrizontalement */
+ justify-content: and; 
+ /* center, space-between, space-arround, space-evenely */
+ /* align-items: start; end , center , */
+ /* gap espace entre les lignes */
+
+  }
