@@ -1,0 +1,48 @@
+
+img{
+    float: left;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.b{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+hr{
+    color: #e21010;
+}
+h2 {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px ;
+    margin: -15px -15px 10px -15px;
+    font-size: 18px;
+}
+.send{
+    background-color: red;
+    color: #ffffff;
+    background-color: red;
+}
+.validate{
+    background-color:rgb(255, 0, 0);
+}
+.cancel{
+    border-color: rgb(255, 0, 0);
+    color: red;
+}

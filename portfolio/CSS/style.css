@@ -17,7 +17,7 @@ p{
     font-size: 12px;
 }
 span{
-    display:inline;
+    display:block;
 }
 .about{
     background-color: rgb(150, 200, 100); 
@@ -26,10 +26,11 @@ span{
 }
 .card{
     border: 5px solid rgb(200, 150, 250);
-    border-radius: 20px;
-    padding: 12px;
+    border-radius: 30px;
+    padding: 26px;
     width: 50%;
-    margin: 16px 32px 100px;
+    height: 50%;
+    margin: 3px ;
    /* margin-top: ;
    margin-left: ;
    margin-right: ;
@@ -39,7 +40,7 @@ span{
 }
 /* margin pour defimir la marge exterieur */
 #id{
-    font-size: 60px;
+    font-size: 12px;
 }
 /* definir le nombre de colonne du texte */
 .about{
@@ -56,12 +57,8 @@ span{
     width: 10px;
     height: 10px;
   }
-  .flex.container{ display: flex;
-    flex-wrap: ;
-    /* pour aligne horrizontalement */
- justify-content: and; 
- /* center, space-between, space-arround, space-evenely */
- /* align-items: start; end , center , */
- /* gap espace entre les lignes */
-
+  .flex{ display: flex; 
+    /* flex-wrap: wrap;  */
+    /* pour que c c affiche verticalement */
+justify-content: start;
   }
